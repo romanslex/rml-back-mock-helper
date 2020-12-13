@@ -1,12 +1,12 @@
 {
   "name": "rml-back-mock-helper",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Library for simulate async back requests",
   "main": "dist/index.js",
   "author": "Roman Gasyul",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p ./tsconfig.build.json ",
     "test": "jest",
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}"
